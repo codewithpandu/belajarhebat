@@ -76,7 +76,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-white text-xl font-semibold">Support</h3>
-          <div className="mt-4 text-white">
+          <div className="mt-4 text-white space-y-4">
             <Link href="#" className="flex gap-2 items-center hover:ms-2">
               <FaInstagram className="size-8" />
               Instagram
