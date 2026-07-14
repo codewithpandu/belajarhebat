@@ -14,7 +14,7 @@ export const products: Product[] = [
     title: "Kids Learning Bundle",
     description: "",
     price: 199000,
-    salePrice: 19000,
+    salePrice: 20000,
     image: "/kids-learning.png",
     url: "https://lynk.id/pandusetia/8lm04rvymovl",
   },
