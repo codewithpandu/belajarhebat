@@ -6,11 +6,18 @@ import Link from "next/link";
 export default function Product(product: Product) {
   return (
     <Link href={product.url}>
-      <Card className="py-8 cursor-pointer shadow-2xl hover:scale-110 transition-all hover:border-2 border-my-prmary ">
+      <Card className="cursor-pointer shadow-2xl hover:scale-105 transition-all hover:border-2 border-my-prmary ">
         <CardHeader>
-          <Image src={product.image} alt="product" width={500} height={500} />
+          <div className="relative rounded-2xl h-72 w-full overflow-hidden">
+            <Image
+              src={product.image}
+              alt="product"
+              fill
+              className="object-cover"
+            />
+          </div>
         </CardHeader>
-        <CardContent>
+        <CardContent className="h-24">
           <div>
             <p className="font-bold text-xl text-my-prmary">{product.title}</p>
             <p className="text-lg text-muted-foreground">

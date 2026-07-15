@@ -18,4 +18,13 @@ export const products: Product[] = [
     image: "/kids-learning.png",
     url: "https://lynk.id/pandusetia/8lm04rvymovl",
   },
+  {
+    id: 2,
+    title: "E-book Belajar Jualan di Facebook",
+    description: "",
+    price: 199000,
+    salePrice: 19000,
+    image: "/ebook-fb.png",
+    url: "https://lynk.id/pandusetia/ye909rmz7zez",
+  },
 ];
