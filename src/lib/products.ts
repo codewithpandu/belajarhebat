@@ -36,4 +36,13 @@ export const products: Product[] = [
     image: "/cerita_anak.png",
     url: "https://lynk.id/pandusetia/ljx76k95p5pr",
   },
+  {
+    id: 4,
+    title: "50 Worksheet Anak Bahasa Indonesia",
+    description: "",
+    price: 99000,
+    salePrice: 19000,
+    image: "/worksheet_anak_id.png",
+    url: "https://lynk.id/pandusetia/ezdwpov99k6r",
+  },
 ];
