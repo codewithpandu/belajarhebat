@@ -29,7 +29,7 @@ export const products: Product[] = [
   },
   {
     id: 3,
-    title: "200+ E-book Cerita Anak Bahasa Indonesia",
+    title: "200 E-book Cerita Anak Bahasa Indonesia",
     description: "",
     price: 99000,
     salePrice: 39000,
