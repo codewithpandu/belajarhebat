@@ -27,4 +27,13 @@ export const products: Product[] = [
     image: "/ebook-fb.png",
     url: "https://lynk.id/pandusetia/ye909rmz7zez",
   },
+  {
+    id: 3,
+    title: "200+ E-book Cerita Anak Bahasa Indonesia",
+    description: "",
+    price: 99000,
+    salePrice: 39000,
+    image: "/cerita_anak.png",
+    url: "https://lynk.id/pandusetia/ljx76k95p5pr",
+  },
 ];
