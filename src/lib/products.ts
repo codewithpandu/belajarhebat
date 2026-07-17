@@ -63,4 +63,13 @@ export const products: Product[] = [
     image: "/faceless_reels.png",
     url: "https://lynk.id/pandusetia/elmd60ggmojj",
   },
+  {
+    id: 7,
+    title: "100 Digital Product Mock Up Bundle",
+    description: "",
+    price: 99000,
+    salePrice: 19000,
+    image: "/product_mockup.png",
+    url: "https://lynk.id/pandusetia/y78zjzxpdky4",
+  },
 ];
