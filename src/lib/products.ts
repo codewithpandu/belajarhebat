@@ -54,4 +54,13 @@ export const products: Product[] = [
     image: "/reels_cover_3.png",
     url: "https://lynk.id/pandusetia/kzrn79kxd8p3",
   },
+  {
+    id: 6,
+    title: "Faceless Reels Bundle",
+    description: "",
+    price: 39000,
+    salePrice: 9000,
+    image: "/faceless_reels.png",
+    url: "https://lynk.id/pandusetia/elmd60ggmojj",
+  },
 ];
