@@ -36,4 +36,13 @@ export const products: Product[] = [
     image: "/worksheet_anak_id.png",
     url: "https://lynk.id/pandusetia/ezdwpov99k6r",
   },
+  {
+    id: 4,
+    title: "48 Storybook Animated Canva",
+    description: "",
+    price: 79000,
+    salePrice: 19000,
+    image: "/cerita_anak_en.png",
+    url: "https://lynk.id/pandusetia/y7o8x5m4y0l1",
+  },
 ];
