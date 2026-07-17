@@ -45,4 +45,13 @@ export const products: Product[] = [
     image: "/cerita_anak_en.png",
     url: "https://lynk.id/pandusetia/y7o8x5m4y0l1",
   },
+  {
+    id: 5,
+    title: "50 Reels Cover with Hooks",
+    description: "",
+    price: 39000,
+    salePrice: 9000,
+    image: "/reels_cover_3.png",
+    url: "https://lynk.id/pandusetia/kzrn79kxd8p3",
+  },
 ];
