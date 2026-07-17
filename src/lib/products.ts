@@ -20,15 +20,6 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    title: "E-book Belajar Jualan di Facebook",
-    description: "",
-    price: 199000,
-    salePrice: 19000,
-    image: "/ebook-fb.png",
-    url: "https://lynk.id/pandusetia/ye909rmz7zez",
-  },
-  {
-    id: 3,
     title: "200 E-book Cerita Anak Bahasa Indonesia",
     description: "",
     price: 99000,
@@ -37,7 +28,7 @@ export const products: Product[] = [
     url: "https://lynk.id/pandusetia/ljx76k95p5pr",
   },
   {
-    id: 4,
+    id: 3,
     title: "50 Worksheet Anak Bahasa Indonesia",
     description: "",
     price: 99000,

@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="container mx-auto w-full max-w-7xl pt-12 md:pt-28 pb-24 px-4 ">
+      <section className="container mx-auto w-full max-w-7xl pt-24 md:pt-28 pb-24 px-4 ">
         <div className="flex flex-col items-center w-full gap-8 md:flex-row md:justify-between ">
           <div className="space-y-8 basis-2/3">
             <h1 className="text-3xl font-bold md:text-4xl lg:text-6xl">
