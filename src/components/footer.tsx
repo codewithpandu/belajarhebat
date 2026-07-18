@@ -1,7 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -77,13 +77,26 @@ export default function Footer() {
         <div>
           <h3 className="text-white text-xl font-semibold">Support</h3>
           <div className="mt-4 text-white space-y-4">
-            <Link href="#" className="flex gap-2 items-center hover:ms-2">
+            <Link
+              href="https://www.instagram.com/belajar_hebat"
+              className="flex gap-2 items-center hover:ms-2"
+            >
               <FaInstagram className="size-8" />
               Instagram
             </Link>
-            <Link href="#" className="flex gap-2 items-center hover:ms-2">
+            <Link
+              href="https://facebook.com/share/1hnuwik7jk/"
+              className="flex gap-2 items-center hover:ms-2"
+            >
               <FaFacebook className="size-8" />
               Facebook
+            </Link>
+            <Link
+              href="https://www.tiktok.com/@belajar.hebat"
+              className="flex gap-2 items-center hover:ms-2"
+            >
+              <FaTiktok className="size-8" />
+              Tiktok
             </Link>
           </div>
         </div>
