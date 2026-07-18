@@ -81,4 +81,13 @@ export const products: Product[] = [
     image: "/emerald_instagram.png",
     url: "https://lynk.id/pandusetia/wl8g2e4d9pdx",
   },
+  {
+    id: 9,
+    title: "44 Dark & Moody Instagram Posts",
+    description: "",
+    price: 39000,
+    salePrice: 9000,
+    image: "/dark_instagram.png",
+    url: "https://lynk.id/pandusetia/650v92e4kd8j",
+  },
 ];
