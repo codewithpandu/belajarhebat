@@ -72,4 +72,13 @@ export const products: Product[] = [
     image: "/product_mockup.png",
     url: "https://lynk.id/pandusetia/y78zjzxpdky4",
   },
+  {
+    id: 8,
+    title: "100 Amazing Emerald Instagram Posts",
+    description: "",
+    price: 99000,
+    salePrice: 19000,
+    image: "/emerald_instagram.png",
+    url: "https://lynk.id/pandusetia/wl8g2e4d9pdx",
+  },
 ];
