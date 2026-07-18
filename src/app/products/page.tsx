@@ -2,6 +2,7 @@
 import { products } from "@/lib/products";
 import Product from "@/components/product";
 import { useState } from "react";
+import { motion } from "framer-motion";
 export default function Products() {
   const itemsPerPage = 6;
 
@@ -13,14 +14,45 @@ export default function Products() {
   const endIndex = startIndex + itemsPerPage;
 
   const currentProducts = products.slice(startIndex, endIndex);
+
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.15, // jeda antar card
+      },
+    },
+  };
+
+  const item = {
+    hidden: {
+      opacity: 0,
+      y: 30,
+    },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
   return (
     <section className="container w-full max-w-7xl mx-auto py-24 p-4">
       <h1 className="font-bold text-3xl">Semua Produk</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+      <motion.div
+        variants={container}
+        initial="hidden"
+        animate="show"
+        viewport={{ once: true, amount: 0.2 }}
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4"
+      >
         {currentProducts.map((product) => (
-          <Product key={product.id} {...product} />
+          <motion.div key={product.id} variants={item} layout>
+            <Product {...product} />
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
 
       <div className="mt-8">
         <button

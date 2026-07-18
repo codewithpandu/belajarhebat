@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader } from "./ui/card";
 import Rupiah from "@/lib/rupiah";
 import type { Product } from "@/lib/products";
 import Link from "next/link";
+
 export default function Product(product: Product) {
   return (
     <Link href={product.url}>
