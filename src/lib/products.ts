@@ -90,4 +90,22 @@ export const products: Product[] = [
     image: "/dark_instagram.png",
     url: "https://lynk.id/pandusetia/650v92e4kd8j",
   },
+  {
+    id: 10,
+    title: "30 Motivational Aesthetic Reels",
+    description: "",
+    price: 39000,
+    salePrice: 9000,
+    image: "/motivational_reels.png",
+    url: "https://lynk.id/pandusetia/kx34dw9eypxv",
+  },
+  {
+    id: 11,
+    title: "54 Stunning Nature Videos Canva",
+    description: "",
+    price: 49000,
+    salePrice: 9000,
+    image: "/stunning_nature.png",
+    url: "https://lynk.id/pandusetia/0x58ygxvd4ek",
+  },
 ];
