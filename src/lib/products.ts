@@ -108,4 +108,13 @@ export const products: Product[] = [
     image: "/stunning_nature.png",
     url: "https://lynk.id/pandusetia/0x58ygxvd4ek",
   },
+  {
+    id: 12,
+    title: "Instagram Post Templates Canva ",
+    description: "",
+    price: 49000,
+    salePrice: 9000,
+    image: "/instagram_post.png",
+    url: "https://lynk.id/pandusetia/5leznoppozyz",
+  },
 ];
